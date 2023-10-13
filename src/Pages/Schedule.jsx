@@ -32,7 +32,7 @@ const Schedule = () => {
   if (currentWeek === 1 || currentWeek === 3) {
     piketGroup = [
       ["Halim", "Adrian", "Alfiatus", "Alif", "Yudha", "Bayu"],
-      ["Danar", "Dhanisa", "Dimas", "Radit", "Esty", "Fauzi"],
+      ["Danar", "Dhanisa", "Dimas", "Radit", "Dewi", "Fauzi"],
       ["Gibran", "Hamzah", "Ilham", "Jourast", "Luthfi", "Syahrul"],
       ["Firdaus", "Jilan", "Rafi", "Nanik", "Raja", "Refina", "Raka"],
       ["Reno", "Rendy", "Salsabila", "Sekar", "Vanessa", "Wahyu", "Zanuba" ],
@@ -40,7 +40,7 @@ const Schedule = () => {
   } else if (currentWeek === 2 || currentWeek === 4) {
     piketGroup = [
       ["Halim", "Adrian", "Alfiatus", "Alif", "Yudha", "Bayu"],
-      ["Danar", "Dhanisa", "Dimas", "Radit", "Esty", "Fauzi"],
+      ["Danar", "Dhanisa", "Dimas", "Radit", "Dewi", "Fauzi"],
       ["Gibran", "Hamzah", "Ilham", "Jourast", "Luthfi", "Syahrul"],
       ["Firdaus", "Jilan", "Rafi", "Nanik", "Raja", "Refina", "Raka"],
       ["Reno", "Rendy", "Salsabila", "Sekar", "Vanessa", "Wahyu", "Zanuba" ],
