@@ -18,11 +18,11 @@ const Carousel = () => {
   })
 
   const publicImages = [
-    "/public/gambar1.jpg",
-    "/public/gambar2.jpg",
-    "/public/gambar3.jpg",
-    "/public/gambar4.jpg",
-    "/public/gambar5.jpg",
+    "gambar1.jpg",
+    "gambar2.jpg",
+    "gambar3.jpg",
+    "gambar4.jpg",
+    "gambar5.jpg",
   ];
 
   const handleImageClick = (imageUrl) => {
