@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import SwipeableViews from "react-swipeable-views";
+// import SwipeableViews from "react-swipeable-views";
 
 const TesButton = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -62,11 +62,11 @@ const TesButton = () => {
         </div>
       </div>
       <div className="button-container mt-4">
-        <SwipeableViews
+        {/* <SwipeableViews
           enableMouseEvents 
           resistance
           style={{ overflow: "visible" }} 
-        >
+        > */}
           {additionalButtons.map((button, index) => (
             <div
               key={`button${index + 1}`}
@@ -88,7 +88,7 @@ const TesButton = () => {
               </div>
             </div>
           ))}
-        </SwipeableViews>
+        {/* </SwipeableViews> */}
       </div>
     </div>
   );
