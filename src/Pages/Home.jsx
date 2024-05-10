@@ -1,6 +1,6 @@
 import BoxClassIg from "../components/BoxClassIg"
-import BoxOldWeb from "../components/BoxOldWeb"
-import BoxTextAnonim from "../components/BoxTextAnonim"
+// import BoxOldWeb from "../components/BoxOldWeb"
+// import BoxTextAnonim from "../components/BoxTextAnonim"
 import Navbar from "../components/Navbar"
 
 const Home = () => {
@@ -8,23 +8,23 @@ const Home = () => {
 		<div className="text-white px-[10%]" id="Home">
 			<Navbar />
 			<div className="lg:hidden">
-				<div className="font-bold text-5xl text-center py-20 ">XI PPLG 2</div>
+				<div className="font-bold text-5xl text-center py-20 ">BA Aisyiyah Kriwen 2</div>
 				<div
 					className="border-2 flex justify-between px-10 text-4xl font-bold py-2 relative"
 					id="TotalSiswa">
 					<div id="AngkaGradientBlue" className="flex items-center justify-center ">
-						08
+						20
 					</div>
 					<div className="">
 						<span id="AngkaGradientBlue" className="text-5xl">
 							0
 						</span>
 						<span id="AngkaGradientPink" className="text-5xl">
-							7
+							2
 						</span>
 					</div>
 					<div id="AngkaGradientPink" className="flex items-center justify-center">
-						22
+						90
 					</div>
 				</div>
 						<BoxClassIg />
@@ -38,7 +38,7 @@ const Home = () => {
 						WELCOME
 					</h1>
 					<h6 className="text-sm" style={{ letterSpacing: "5px" }}>
-						 XI PPLG 2
+						 Ba Aisyiyah Kriwen 2
 					</h6>
 				</div>
 			</div>

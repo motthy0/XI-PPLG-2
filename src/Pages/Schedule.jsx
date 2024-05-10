@@ -31,19 +31,19 @@ const Schedule = () => {
   // Menentukan kelompok piket berdasarkan minggu saat ini
   if (currentWeek === 1 || currentWeek === 3) {
     piketGroup = [
-      ["Halim", "Adrian", "Alfiatus", "Alif", "Yudha", "Bayu"],
-      ["Danar", "Dhanisa", "Dimas", "Radit", "Dewi", "Fauzi"],
-      ["Gibran", "Hamzah", "Ilham", "Jourast", "Luthfi", "Syahrul"],
-      ["Firdaus", "Jilan", "Rafi", "Nanik", "Raja", "Refina", "Raka"],
-      ["Reno", "Rendy", "Salsabila", "Sekar", "Vanessa", "Wahyu", "Zanuba" ],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
     ];
   } else if (currentWeek === 2 || currentWeek === 4) {
     piketGroup = [
-      ["Halim", "Adrian", "Alfiatus", "Alif", "Yudha", "Bayu"],
-      ["Danar", "Dhanisa", "Dimas", "Radit", "Dewi", "Fauzi"],
-      ["Gibran", "Hamzah", "Ilham", "Jourast", "Luthfi", "Syahrul"],
-      ["Firdaus", "Jilan", "Rafi", "Nanik", "Raja", "Refina", "Raka"],
-      ["Reno", "Rendy", "Salsabila", "Sekar", "Vanessa", "Wahyu", "Zanuba" ],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+      ["Rumi Satarwi S.Pd.i", "Nur Isjayanti S.Pd.i", "Siti Rahayu S.Pd.i"],
+
     ];
   }
 
@@ -89,7 +89,7 @@ const Schedule = () => {
           data-aos="fade-up"
           data-aos-duration="500"
         >
-          Piket
+          Guru
         </div>
         {currentPiketNames && currentPiketNames.length > 0 ? (
           currentPiketNames.map((piketName, index) => (

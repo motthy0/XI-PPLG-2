@@ -49,7 +49,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<a href="#Tabs" className="text-white opacity-80 text-lg font-bold">
-								Structure & Schedule
+								Struktur & Jadwal
 							</a>
 						</li>
 					</ul>
@@ -59,7 +59,7 @@ const Navbar = () => {
 			{/* Dekstop */}
 			<div className="flex justify-between relative top-3 hidden lg:flex">
 				<div>
-					<img src="/logoSMK.jpg" className="w-12 h-12 rounded-full" alt="" />
+					<img src="/LogoKriwen.png" className="w-12 h-12 rounded-full" alt="" />
 				</div>
 				<ul className="mt-2 flex gap-5">
 					<li className="mb-4">
@@ -74,7 +74,7 @@ const Navbar = () => {
 					</li>
 					<li>
 						<a href="#Tabs" className="text-white opacity-80 text-[1rem] font-semibold">
-							Structure & Schedule
+							Struktur & Jadwal
 						</a>
 					</li>
 				</ul>
